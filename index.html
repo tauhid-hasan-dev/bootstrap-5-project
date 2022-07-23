@@ -10,15 +10,46 @@
 </head>
 
 <body>
+    <!-- navbar -->
     <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
-        <div class="container">
+        <div class="container ">
             <a href="#" class="navbar-brand">MERN STACK BOOTCAMP</a>
-            <div class="collapse navbar-collapse">
-
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navmenu">
+                <ul class="navbar-nav ">
+                    <li class="nav-item mx-2">
+                        <a href="#Learn" class="nav-link">Learnings</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#Question" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#Instructors" class="nav-link">Instructors</a>
+                    </li>
+                </ul>
             </div>
         </div>
-
     </nav>
+    <!-- Showcase -->
+
+    <section class="bg-dark text-light text-center text-sm-start p-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div class=" ">
+                    <h1>Become a Web <span class="text-info"> Developer </span></h1>
+                    <p class="lead my-4">
+                        We focus on teaching our students the fundamentals of the latest
+                        and greatest technologies to prepare them for their first dev role
+                    </p>
+                    <button class="btn btn-info btn-lg text-light "> Enroll Now </button>
+                </div>
+                <img class="img-fluid d-none d-sm-block w-50" src="images/undraw_programming_re_kg9v.svg" alt="">
+            </div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
