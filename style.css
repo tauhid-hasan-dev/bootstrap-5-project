@@ -4,6 +4,10 @@ body::before {
     height: 60px;
 }
 
+.hot {
+    background-color: rgb(0, 255, 42) !important;
+}
+
 
 @media screen and (min-width:768px) {
     .input-group {
